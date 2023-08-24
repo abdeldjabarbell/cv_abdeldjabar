@@ -190,7 +190,7 @@ function sendEmeil (){
 
 document.getElementById("download_CV_Button").addEventListener("click", function() {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1KNDNCorceKInZtklyEMtDSr5JqSbiTuh/view?usp=drive_link"; // Remplacez par le lien vers votre CV
+    link.href = "https://drive.google.com/file/d/1iSKfn5Xdwp3vfwuacsRzh2KeZwvzag2A/view?usp=drive_link"; // Remplacez par le lien vers votre CV
     link.download = "abdeldjabar_BELLAKHDAR_CV.pdf"; // Nom du fichier à télécharger
     document.body.appendChild(link);
     link.click();
